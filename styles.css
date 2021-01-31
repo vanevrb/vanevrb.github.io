@@ -27,8 +27,8 @@ body {
 }
 
 .cube div {
-    width: 30px;
-    height: 30px;
+    width: 200px;
+    height: 200px;
     box-sizing: border-box;
     position: absolute;
     border: 1px solid black;
@@ -37,32 +37,32 @@ body {
 
 .cube div:nth-child(1) {
     background-color: yellow;
-    transform: rotateX(90deg) translate3d(0, 0, 15px);
+    transform: rotateX(90deg) translate3d(0, 0, 100px);
 }
 
 .cube div:nth-child(2) {
     background-color: purple;
-    transform: rotate(-90deg) translate3d(0, 0, -15px);
+    transform: rotate(-90deg) translate3d(0, 0, -100px);
 }
 
 .cube div:nth-child(3) {
     background-color: red;
-    transform: rotateY(90deg) translate3d(0, 0, 15px);
+    transform: rotateY(90deg) translate3d(0, 0, 100px);
 }
 
 .cube div:nth-child(4) {
     background-color: blue;
-    transform: rotateY(-90deg) translate3d(0, 0, 15px);
+    transform: rotateY(-90deg) translate3d(0, 0, 100px);
 }
 
 .cube div:nth-child(5) {
     background-color: green;
-    transform: translate3d(0, 0, 15px);
+    transform: translate3d(0, 0, 100px);
 }
 
 .cube div:nth-child(6) {
     background-color: cyan;
-    transform: rotateX(90deg) translate3d(0, 0, -28px);
+    transform: rotateX(90deg) translate3d(0, 0, -150px);
 }
 
 .cube div:nth-child(6){
@@ -75,13 +75,13 @@ body {
 @keyframes move {
     from {
         background-color: cyan;
-        transform: rotateX(90deg) translate3d(0, 0, -28px);
+        transform: rotateX(90deg) translate3d(0, 0, -150px);
     }
 
     to {
         background-color: rgba(0, 255, 255, 0.253);
 
-        transform: rotateX(90deg) translate3d(0, 0, -15px);
+        transform: rotateX(90deg) translate3d(0, 0, -100px);
     }
 
 }
