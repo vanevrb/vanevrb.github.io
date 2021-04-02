@@ -1,1 +1,8 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-leap-day
+# theme: jekyll-theme-cayman
+
+title: MICROS Workshop @ ECIR 2021 
+description: Workshop on Mixed-Initiative ConveRsatiOnal Systems 2021
+
+plugins:
+- jekyll-menus
