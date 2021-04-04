@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+x
  <div class="row">
 
                 {% for post in site.posts %}
