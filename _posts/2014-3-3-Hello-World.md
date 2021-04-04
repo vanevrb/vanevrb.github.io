@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: Lorem Ipsum
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable E
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
