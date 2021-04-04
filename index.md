@@ -1,25 +1,27 @@
 ---
 layout: default
 ---
+ <div class="row">
 
-<div class="container">
-    <div class="row">
-    {% for post in site.posts %}
-        <div class="col-sm-4">
-            <div class="card mr-3">
-                <img src="./img/posts/1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</h5>
-                    <p class="card-text">{{ post.excerpt }}</p>
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Ver mas</a>
+                {% for post in site.posts %}
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                            </h5>
+                            {% if post.image %}
+			    	{{ post.image }}
+			    {% endif %}
+			    <h1 class="headline">{{ post.title }}</h1>
+                            <p class="card-text"> {{ post.excerpt }}</p>
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
-        </div>
-     {% endfor %}
-    </div>
 </div>
-
-
 # Bienvenido
 
 Te damos la bienvenida al Wikiportal canino, pensado para ser la página principal de aquellas personas interesadas y amantes de los perros y todo lo relacionado con estos animales.
