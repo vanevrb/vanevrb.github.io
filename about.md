@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+  <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./img/sliders/1.png" class="d-block w-100"
                     alt="...">
