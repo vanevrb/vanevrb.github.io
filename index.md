@@ -3,7 +3,26 @@ layout: default
 ---
 
 x
- <div class="row">
+    <div class="row">
+        <div class="col-sm-3">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+
+            <div class="row">
 
                 {% for post in site.posts %}
                 <div class="col-sm-12">
@@ -23,7 +42,8 @@ x
                 </div>
                 {% endfor %}
             </div>
-</div>
+        </div>
+    </div>
 # Bienvenido
 
 Te damos la bienvenida al Wikiportal canino, pensado para ser la página principal de aquellas personas interesadas y amantes de los perros y todo lo relacionado con estos animales.
