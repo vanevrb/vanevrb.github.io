@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-    <div class="row">
+<div class="row">
             <div class="col-6 col-sm-4">
                 <div class="card mr-3">
                     <img src="./img/posts/1.png" class="card-img-top" alt="...">
@@ -35,4 +35,4 @@ permalink: /blog/
                     </div>
                 </div>
             </div>
-        </div>
+</div>
