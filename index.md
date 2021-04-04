@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <div align="center">
 <img align="center" width="100%" alt="analisis" src="https://github.com/vanevrb/repo/blob/main/images/banner.gif">
 </div>
