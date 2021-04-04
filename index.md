@@ -4,19 +4,18 @@ layout: default
 
 <div class="container">
     <div class="row">
-        {% for post in site.posts %}
+    {% for post in site.posts %}
         <div class="col-sm-4">
             <div class="card mr-3">
                 <img src="./img/posts/1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</h5>
-                    <p class="card-text">
-                       {{ post.excerpt }}</p>
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Ver más</a>
+                    <p class="card-text">{{ post.excerpt }}</p>
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary">Ver mas</a>
                 </div>
             </div>
         </div>
-        {% endfor %}
+     {% endfor %}
     </div>
 </div>
 
