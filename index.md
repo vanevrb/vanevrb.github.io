@@ -5,7 +5,7 @@ layout: default
 <div class="container">
     <div class="row">
         {% for post in site.posts %}
-        <div class="col-6 col-sm-4">
+        <div class="col-sm-4">
             <div class="card mr-3">
                 <img src="./img/posts/1.png" class="card-img-top" alt="...">
                 <div class="card-body">
