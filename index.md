@@ -3,6 +3,7 @@ layout: default
 ---
 
 x
+<div>
     <div class="row">
         <div class="col-sm-3">
             <ul class="nav flex-column">
@@ -21,9 +22,7 @@ x
             </ul>
         </div>
         <div class="col-sm-9">
-
-            <div class="row">
-
+          <div class="row">
                 {% for post in site.posts %}
                 <div class="col-sm-12">
                     <div class="card">
@@ -44,6 +43,8 @@ x
             </div>
         </div>
     </div>
+</div>
+
 # Bienvenido
 
 Te damos la bienvenida al Wikiportal canino, pensado para ser la página principal de aquellas personas interesadas y amantes de los perros y todo lo relacionado con estos animales.
