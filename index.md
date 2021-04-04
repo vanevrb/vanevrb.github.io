@@ -2,8 +2,53 @@
 layout: default
 ---
 
-x
-<div>
+
+ruta
+<h2>{{ site.posts[0].title }}</h2>
+<div class="row">
+                            <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                <div class="card mr-3">
+                                    <img src="{{ site.baseurl }}/assets/img/posts/{{ site.posts[0].image }}.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">{{ site.posts[0].title }}</h5>
+                                      <p class="card-text">We’re getting nearer to the end of summer and because we know that this period can make a serious dent in your pocket..</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                <div class="card mr-3">
+                                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/gpt-3-tailwind-css-code-generator.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">We built an OpenAI powered Tailwind CSS code generator using GPT-3</h5>
+                                      <p class="card-text">A couple of days ago we got access to the OpenAI’s Beta API platform and I had the occasion to play around with it...</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                <div class="card mr-3">
+                                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/bootstrap-5-tutorial/bootstrap-5-tutorial.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Bootstrap 5 tutorial: learn how to get started without jQuery</h5>
+                                      <p class="card-text">We’re getting nearer to the end of summer and because we know that this period can make a serious dent in your pocket..</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-3 mb-4">
+                                <div class="card mr-3">
+                                    <img src="https://themesberg.s3.us-east-2.amazonaws.com/public/posts/angular-10/angular-10-officially-released-dropping-ie-9-10.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Angular 10 officially released deprecating support for IE 9 and 10</h5>
+                                      <p class="card-text">If you’ve been using Angular for your web projects I’m glad to let you know that following this major update to version...</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<div id="main" role="main" class="container">
+
     <div class="row">
         <div class="col-sm-3">
             <ul class="nav flex-column">
@@ -22,7 +67,9 @@ x
             </ul>
         </div>
         <div class="col-sm-9">
-          <div class="row">
+
+            <div class="row">
+
                 {% for post in site.posts %}
                 <div class="col-sm-12">
                     <div class="card">
@@ -44,33 +91,4 @@ x
         </div>
     </div>
 </div>
-
-# Bienvenido
-
-Te damos la bienvenida al Wikiportal canino, pensado para ser la página principal de aquellas personas interesadas y amantes de los perros y todo lo relacionado con estos animales.
-
-<h1> Hola <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></h1> 
-
-
-## Con que trabajo:
-
-<code><a href="https://analytics.google.com/" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/google_analytics/google_analytics-ar21.svg"></a></code>
-<code><a href="https://analytics.google.com/" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/php/php-ar21.svg"></a></code>
-<code><a href="https://analytics.google.com/" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></a></code>
-<code><a href="https://analytics.google.com/" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></a></code>
-<code><a href="https://analytics.google.com/" target="_blank"><img height="50" src="https://www.vectorlogo.zone/logos/google_appengine/google_appengine-ar21.svg"></a></code>
-
-
-<img src="https://media.giphy.com/media/xUA7bi3KTfuK2a6Kn6/giphy.gif" width="35px">
-
-**Con php** es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group
-
-- Google Analytics
-- Php con Laravel
-	- MVC
-- C#
-- C++
-- 
-
-#Php link [Php link](https://www.php.net/manual/es/indexes.functions.php "Php link")
 
